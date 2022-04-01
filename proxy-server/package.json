@@ -1,0 +1,18 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A server for generating Static Proxy",
+  "main": "proxy-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node proxy-server.js"
+  },
+  "keywords": [],
+  "author": "Sajawal Fareedi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "proxy-chain": "^1.0.4"
+  }
+}
