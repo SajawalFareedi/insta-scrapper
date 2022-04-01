@@ -3,7 +3,7 @@ class Variables():
 
         self.PROXY_SERVER_URL = "http://127.0.0.1:8080/generate-proxy/"
 
-        self.SESSION_ID = "24802582994%3AAHTOMNWLTOdHaH%3A13"
+        self.SESSION_ID = ""
         self.DELAY_BETWEEN_EACH_USER = 1
         self.HOPS = 2
         self.FILES_EXTENSION = ".csv"
