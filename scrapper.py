@@ -1,7 +1,6 @@
 import instagramy as insta
 
 import requests
-from urllib.request import Request, urlopen
 
 import json
 import csv
@@ -14,9 +13,15 @@ from config.variables import Variables
 from config.urls import Urls
 
 var = Variables()
+
+# org_proxy = {
+#     "http": "http://kuetxqpq-rotate:dwcgpcu5fdwv@p.webshare.io:9999/",
+#     "https": "http://kuetxqpq-rotate:dwcgpcu5fdwv@p.webshare.io:9999/"
+# }
+
 org_proxy = {
-    "http": "http://rynym:aNaPEHnJDW4gma4u@54.81.215.168:31112",
-    "https": "https://rynym:aNaPEHnJDW4gma4u@54.81.215.168:31112"
+    "http": "http://rynym:aNaPEHnJDW4gma4u@proxy.packetstream.io:31112",
+    "https": "http://rynym:aNaPEHnJDW4gma4u@proxy.packetstream.io:31112"
 }
 
 
@@ -28,8 +33,8 @@ def getProxy():
     }
 
 
-proxy = getProxy()
-proxy_host = proxy["http"].split("//")[1]
+# proxy = getProxy()
+proxy_host = ""  # proxy["http"].split("//")[1]
 
 
 def get_userInfo(user, session_id=var.SESSION_ID):
@@ -70,11 +75,7 @@ def dictToAoA(userData, isFirstTime):
 
 
 def saveUserInfo(userData, isFirstTime):
-    # userDataJSON = json.dumps(userData)
     userDataAoA = dictToAoA(userData, isFirstTime)
-    # dataFrame = pd.read_json(userDataJSON, typ='series')
-    # userData_CSV = dataFrame.to_csv()
-    # userData_CSV = ''
     if isFirstTime == True:
         with open(var.USERINFO_FILE, mode="w+", encoding="utf8", newline='') as usersInfoFile:
             writer = csv.writer(usersInfoFile, delimiter=',')
@@ -86,66 +87,39 @@ def saveUserInfo(userData, isFirstTime):
         usersInfoFile.close()
 
 
-def get(url, headers={}):
-    # headers = {
-    #     # "authority": "i.instagram.com",
-    #     # "accept": "*/*",
-    #     # "accept-language": "en-US,en;q=0.9,nl;q=0.8,he;q=0.7",
-    #     "cookie": "sessionid=",
-    #     # "dnt": "1",
-    #     # "origin": "https://www.instagram.com",
-    #     # "referer": "https://www.instagram.com/",
-    #     # "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
-    #     # "sec-ch-ua-mobile": "?0",
-    #     # "sec-ch-ua-platform": '"Windows"',
-    #     # "sec-fetch-dest": "empty",
-    #     # "sec-fetch-mode": "cors",
-    #     # "sec-fetch-site": "same-site",
-    #     "user-agent": "Googlebot/2.1 (+http://www.googlebot.com/bot.html)",
-    #     # x-asbd-id: 198387
-    #     # x-ig-app-id: 936619743392459
-    #     # x-ig-www-claim: hmac.AR1XVfLthoJcGua0kPRgkBRzVvg8OG6uhaQndtxIfRZNYHbC
-    # }
-    # r = requests.get(url=url, headers=headers,
-    #                  verify=False)  # proxies=org_proxy
-    # print(r.text)
-    # return r.text if r.status_code == 200 else r.headers
-    request = Request(
-        url=url, headers={
-            "User-Agent": 'user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36"'}
-    )
-    request.add_header("Authority", "authority: i.instagram.com")
-    request.add_header("dnt", "dnt: 1")
-    request.add_header("origin", "origin: https://www.instagram.com")
-    request.add_header("referer", "referer: https://www.instagram.com/")
-    request.add_header(
-        "sec-ch-ua", 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"')
-    request.add_header("sec-ch-ua-mobile", "sec-ch-ua-mobile: ?0")
-    request.add_header("sec-ch-ua-platform", 'sec-ch-ua-platform: "Windows"')
-    request.add_header("sec-fetch-dest", "sec-fetch-dest: empty")
-    request.add_header("sec-fetch-mode", "sec-fetch-mode: cors")
-    request.add_header("sec-fetch-site", "sec-fetch-site: same-site")
-    request.add_header("Accept", "accept: */*")
-    request.add_header("Cookie", '')
-    request.add_header("x-asbd-id", "x-asbd-id: 198387")
-    request.add_header("x-ig-app-id", "x-ig-app-id: 936619743392459")
-    request.add_header(
-        "x-ig-www-claim", "x-ig-www-claim: hmac.AR1XVfLthoJcGua0kPRgkBRzVvg8OG6uhaQndtxIfRZNYHbC")
-    # request.set_proxy(proxy_host, "http")
-    with urlopen(request) as response:
-        html = response.read()
-
-    return html.decode("utf-8")
-
-
 def getFollowers(User, totalCount, maxCount):
-    # page_count = round((totalCount/maxCount) + 1)
-    url = Urls(User, totalCountToFetchAtOnce=maxCount).generateUrl("followers")
-    followers = get(url)
-    print(followers)
-    # print(followers)
-    # for i in range(page_count):
-    #     pass
+    page_count = round((totalCount/maxCount) + 1)
+    headers = {
+        "authority": "i.instagram.com",
+        "accept": "*/*",
+        "accept-language": "en-US,en;q=0.9,nl;q=0.8,he;q=0.7",
+        "cookie": 'csrftoken=imei0lpcmj8TJW6pUjr8Tmm3mthio0AK; ds_user_id=24802582994; sessionid=24802582994%3ADsAxOtayIBO4eA%3A25',
+        "dnt": "1",
+        "origin": "https://www.instagram.com",
+        "referer": "https://www.instagram.com/",
+        "sec-ch-ua": '" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36",
+        "x-asbd-id": "198387",
+        "x-ig-app-id": "936619743392459",
+        "x-ig-www-claim": "hmac.AR1XVfLthoJcGua0kPRgkBRzVvg8OG6uhaQndtxIfRZNYDRW"
+    }
+    for i in range(5):
+        next_max_id = maxCount
+        url = Urls(User, totalCountToFetchAtOnce=maxCount).generateUrl(
+            "followers", next_max_id)
+        r = requests.get(url=url, headers=headers,
+                         proxies=org_proxy, verify=False)
+
+        data = json.loads(r.text) if r.status_code == 200 else r.status_code
+        next_max_id = data['next_max_id']
+        followers = data['users']
+        print("Username: ", followers[0]["username"])
+        sleep(var.DELAY_BETWEEN_EACH_USER + randint(4, 11))
 
 
 def extractDataWithInstagramy(usernames):
@@ -184,7 +158,8 @@ def extractDataWithInstagramy(usernames):
         }
 
         saveUserInfo(userData, isFirstTime)
-        getFollowers(userInfo['id'], 50)
+        getFollowers(userInfo['id'],
+                     userInfo['edge_followed_by']['count'], 100)
 
         # edge_owner_to_timeline_media = []
         # edge_felix_video_timeline = []
@@ -200,8 +175,10 @@ def extractDataWithInstagramy(usernames):
 # TODO: Create Progress Bar, getPosts, getComments, getFollowers, and getFollowing.
 
 if __name__ == "__main__":
-    # usernames = readInputFile()
-    # usernames = usernames.split("\n")
-    # extractDataWithInstagramy(usernames)
-    # getFollowers("0000000000", 100)
-    getFollowers("2504145151", 3638, 12)
+    try:
+        # usernames = readInputFile()
+        # usernames = usernames.split("\n")
+        # extractDataWithInstagramy(usernames)
+        getFollowers("6048734544", 3848, 100)
+    except Exception as e:
+        print(e)
