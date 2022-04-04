@@ -8,6 +8,7 @@
 `https://i.instagram.com/api/v1/friendships/6048734544/followers/?count=12&max_id=12&search_surface=follow_list_page`
 `https://i.instagram.com/api/v1/friendships/6048734544/following/?count=12`
 `https://i.instagram.com/api/v1/media/2626242270782253644/comments/?can_support_threading=true&target_comment_id=17945982907519424&permalink_enabled=true`
+`https://www.instagram.com/graphql/query/?query_hash=8c2a529969ee035a5063f2fc8602a0fd&variables=%7B%22id%22%3A%222504145151%22%2C%22first%22%3A12%2C%22after%22%3A%22QVFCSkVoUnpYZndTejZnWVdueDhQRnM1Xzl4ekZ5ZXFHRVlRaHJIRDJjNmZsdDRQY3J4cU8zdXBJdTExUHNPS2taMlRWTkdiWWdWdk9RVWtBMHpodHdqdg%3D%3D%22%7D`
 
 **--------------------------------------------------------------------------------------------------------------------------------**
 

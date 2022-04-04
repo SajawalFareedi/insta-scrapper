@@ -22,3 +22,7 @@ class Variables():
         self.POSTS_FILE = f"{self.OUTPUT_FILE_PATH}{self.POSTS_OUTPUT_FILE_NAME}{self.FILES_EXTENSION}"
         self.COMMENTS_FILE = f"{self.OUTPUT_FILE_PATH}{self.COMMENTS_OUTPUT_FILE_NAME}{self.FILES_EXTENSION}"
         self.NEW_USERS_FILE = f"{self.OUTPUT_FILE_PATH}{self.NEW_USERS_OUTPUT_FILE_NAME}{self.FILES_EXTENSION}"
+
+        self.MAX_FOLLOWERS = 100
+        self.MAX_FOLLOWINGS = 100
+        self.MAX_POSTS = 50
