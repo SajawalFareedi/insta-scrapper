@@ -1,6 +1,6 @@
 # INSTAGRAM BOT INFO
 
-##### ---- HOPS: 3 ---- initial list = 1 hop, then from that list it collects names for hop 2, then from that names for hop 3
+##### HOPS: 3 ---- initial list = 1 hop, then from that list it collects names for hop 2, then from that names for hop 3
 
 ##### To Run -> <code>python -W ignore scrapper.py</code>
 
