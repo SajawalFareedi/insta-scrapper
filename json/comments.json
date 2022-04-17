@@ -617,3 +617,394 @@
         "replies": []
     }'
 ]
+
+
+{
+    "comment_likes_enabled": true,
+    "comments": [
+        {
+            "pk": "17939965423975810",
+            "user_id": 52290271936,
+            "text": "Nye",
+            "type": 0,
+            "created_at": 1649663664,
+            "created_at_utc": 1649663664,
+            "content_type": "comment",
+            "status": "Active",
+            "bit_flags": 0,
+            "did_report_as_spam": false,
+            "share_enabled": true,
+            "user": {
+                "pk": 52290271936,
+                "username": "artvestest2",
+                "full_name": "artvestest 2 account",
+                "is_private": false,
+                "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?efg=eyJybWQiOiJpZ19hbmRyb2lkX21vYmlsZV9uZXR3b3JrX3N0YWNrX3JldHJ5X21vcmVfZmFpbHVyZXM6b3BlcmF0aW9uX25vdF9wZXJtaXR0ZWQifQ&_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX9eyDnd&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT-dGQVECY0Rd3jUyoY82baNXyOSoVDw4YTE61d_nC16jg&oe=62620F8F&_nc_sid=cff2a4",
+                "is_verified": false,
+                "follow_friction_type": 0,
+                "growth_friction_info": {
+                    "has_active_interventions": false,
+                    "interventions": {}
+                },
+                "is_mentionable": true,
+                "account_badges": [],
+                "latest_reel_media": 0,
+                "latest_besties_reel_media": 0
+            },
+            "is_covered": false,
+            "has_liked_comment": false,
+            "comment_like_count": 0,
+            "child_comment_count": 0,
+            "preview_child_comments": [],
+            "other_preview_users": [],
+            "inline_composer_display_condition": "never",
+            "comment_index": 0,
+            "private_reply_status": 0
+        },
+        {
+            "pk": "17914928489510766",
+            "user_id": 52866722374,
+            "text": "Rly",
+            "type": 0,
+            "created_at": 1649663859,
+            "created_at_utc": 1649663859,
+            "content_type": "comment",
+            "status": "Active",
+            "bit_flags": 0,
+            "did_report_as_spam": false,
+            "share_enabled": true,
+            "user": {
+                "pk": 52866722374,
+                "username": "artvestest4",
+                "full_name": "artvestest4 account",
+                "is_private": false,
+                "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?efg=eyJybWQiOiJpZ19hbmRyb2lkX21vYmlsZV9uZXR3b3JrX3N0YWNrX3JldHJ5X21vcmVfZmFpbHVyZXM6b3BlcmF0aW9uX25vdF9wZXJtaXR0ZWQifQ&_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX9eyDnd&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT-dGQVECY0Rd3jUyoY82baNXyOSoVDw4YTE61d_nC16jg&oe=62620F8F&_nc_sid=cff2a4",
+                "is_verified": false,
+                "follow_friction_type": 0,
+                "growth_friction_info": {
+                    "has_active_interventions": false,
+                    "interventions": {}
+                },
+                "is_mentionable": true,
+                "account_badges": [],
+                "latest_reel_media": 0,
+                "latest_besties_reel_media": 0
+            },
+            "is_covered": false,
+            "has_liked_comment": false,
+            "comment_like_count": 0,
+            "child_comment_count": 0,
+            "preview_child_comments": [],
+            "other_preview_users": [],
+            "inline_composer_display_condition": "never",
+            "comment_index": 1,
+            "private_reply_status": 0
+        }
+    ],
+    "comment_count": 2,
+    "caption": {
+        "pk": "17938399238009142",
+        "user_id": 52696330744,
+        "text": "A reel?",
+        "type": 1,
+        "created_at": 1649638378,
+        "created_at_utc": 1649663578,
+        "content_type": "comment",
+        "status": "Active",
+        "bit_flags": 0,
+        "did_report_as_spam": false,
+        "share_enabled": false,
+        "user": {
+            "pk": 52696330744,
+            "username": "artvestest1",
+            "full_name": "artvestest 1 account",
+            "is_private": false,
+            "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?efg=eyJybWQiOiJpZ19hbmRyb2lkX21vYmlsZV9uZXR3b3JrX3N0YWNrX3JldHJ5X21vcmVfZmFpbHVyZXM6b3BlcmF0aW9uX25vdF9wZXJtaXR0ZWQifQ&_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX9eyDnd&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT-dGQVECY0Rd3jUyoY82baNXyOSoVDw4YTE61d_nC16jg&oe=62620F8F&_nc_sid=cff2a4",
+            "is_verified": false,
+            "follow_friction_type": -1,
+            "growth_friction_info": {
+                "has_active_interventions": false,
+                "interventions": {}
+            },
+            "account_badges": []
+        },
+        "is_covered": false,
+        "private_reply_status": 0
+    },
+    "caption_is_edited": false,
+    "has_more_comments": false,
+    "has_more_headload_comments": false,
+    "threading_enabled": true,
+    "media_header_display": "full",
+    "initiate_at_top": true,
+    "insert_new_comment_to_top": true,
+    "quick_response_emojis": [
+        {
+            "unicode": "\u2764\ufe0f"
+        },
+        {
+            "unicode": "\ud83d\ude4c"
+        },
+        {
+            "unicode": "\ud83d\udd25"
+        },
+        {
+            "unicode": "\ud83d\udc4f"
+        },
+        {
+            "unicode": "\ud83d\ude22"
+        },
+        {
+            "unicode": "\ud83d\ude0d"
+        },
+        {
+            "unicode": "\ud83d\ude2e"
+        },
+        {
+            "unicode": "\ud83d\ude02"
+        }
+    ],
+    "preview_comments": [],
+    "can_view_more_preview_comments": false,
+    "comment_cover_pos": "bottom",
+    "is_ranked": true,
+    "status": "ok"
+}
+
+
+{
+    "comment_likes_enabled": true,
+    "comments": [
+        {
+            "pk": "17889252443625626",
+            "user_id": 52866722374,
+            "text": "Weh",
+            "type": 0,
+            "created_at": 1649663871,
+            "created_at_utc": 1649663871,
+            "content_type": "comment",
+            "status": "Active",
+            "bit_flags": 0,
+            "did_report_as_spam": false,
+            "share_enabled": false,
+            "user": {
+                "pk": 52866722374,
+                "username": "artvestest4",
+                "full_name": "artvestest4 account",
+                "is_private": false,
+                "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+                "is_verified": false,
+                "follow_friction_type": 0,
+                "growth_friction_info": {
+                    "has_active_interventions": false,
+                    "interventions": {}
+                },
+                "is_mentionable": true,
+                "account_badges": [],
+                "latest_reel_media": 0,
+                "latest_besties_reel_media": 0
+            },
+            "is_covered": false,
+            "has_liked_comment": false,
+            "comment_like_count": 0,
+            "child_comment_count": 0,
+            "preview_child_comments": [],
+            "other_preview_users": [],
+            "inline_composer_display_condition": "never",
+            "private_reply_status": 0
+        },
+        {
+            "pk": "17950223422833725",
+            "user_id": 52290271936,
+            "text": "No way",
+            "type": 0,
+            "created_at": 1649663677,
+            "created_at_utc": 1649663677,
+            "content_type": "comment",
+            "status": "Active",
+            "bit_flags": 0,
+            "did_report_as_spam": false,
+            "share_enabled": false,
+            "user": {
+                "pk": 52290271936,
+                "username": "artvestest2",
+                "full_name": "artvestest 2 account",
+                "is_private": false,
+                "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+                "is_verified": false,
+                "follow_friction_type": 0,
+                "growth_friction_info": {
+                    "has_active_interventions": false,
+                    "interventions": {}
+                },
+                "is_mentionable": true,
+                "account_badges": [],
+                "latest_reel_media": 0,
+                "latest_besties_reel_media": 0
+            },
+            "is_covered": false,
+            "has_liked_comment": false,
+            "comment_like_count": 0,
+            "child_comment_count": 0,
+            "preview_child_comments": [],
+            "other_preview_users": [],
+            "inline_composer_display_condition": "never",
+            "private_reply_status": 0
+        },
+        {
+            "pk": "17905565360454288",
+            "user_id": 52696330744,
+            "text": "What happens when I reply to my own post?",
+            "type": 0,
+            "created_at": 1649663442,
+            "created_at_utc": 1649663442,
+            "content_type": "comment",
+            "status": "Active",
+            "bit_flags": 0,
+            "did_report_as_spam": false,
+            "share_enabled": false,
+            "user": {
+                "pk": 52696330744,
+                "username": "artvestest1",
+                "full_name": "artvestest 1 account",
+                "is_private": false,
+                "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+                "is_verified": false,
+                "follow_friction_type": 0,
+                "growth_friction_info": {
+                    "has_active_interventions": false,
+                    "interventions": {}
+                },
+                "is_mentionable": true,
+                "account_badges": [],
+                "latest_reel_media": 0,
+                "latest_besties_reel_media": 0
+            },
+            "is_covered": false,
+            "has_liked_comment": false,
+            "comment_like_count": 2,
+            "child_comment_count": 2,
+            "preview_child_comments": [
+                {
+                    "content_type": "comment",
+                    "user": {
+                        "pk": 52696330744,
+                        "username": "artvestest1",
+                        "full_name": "artvestest 1 account",
+                        "is_private": false,
+                        "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+                        "is_verified": false,
+                        "follow_friction_type": 0,
+                        "growth_friction_info": {
+                            "has_active_interventions": false,
+                            "interventions": {}
+                        },
+                        "a-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+                        "is_verified": false,
+                        "follow_friction_type": 0,
+                        "growth_friction_info": {
+                            "has_active_interventions": false,
+                            "interventions": {}
+                        },
+                        "account_badges": [],
+                        "has_anonymous_profile_picture": true,
+                        "has_highlight_reels": false,
+                        "is_mentionable": true,
+                        "silent_tag_mention_dialog": false,
+                        "has_primary_country_in_feed": false,
+                        "has_primary_country_in_profile": false
+                    },
+                    "pk": "17925802220245389",
+                    "text": "@artvestest1 and then another sub reply and now liking this myself",
+                    "type": 2,
+                    "created_at": 1649663468,
+                    "created_at_utc": 1649663468,
+                    "media_id": "2813902932063625695",
+                    "status": "Active",
+                    "parent_comment_id": "17905565360454288",
+                    "share_enabled": false,
+                    "private_reply_status": 0,
+                    "has_liked_comment": false,
+                    "comment_like_count": 0
+                }
+            ],
+            "other_preview_users": [],
+            "has_more_tail_child_comments": false,
+            "has_more_head_child_comments": false,
+            "inline_composer_display_condition": "never",
+            "private_reply_status": 0,
+            "is_liked_by_media_owner": true
+        }
+    ],
+    "comment_count": 5,
+    "caption": {
+        "pk": "17950324285830809",
+        "user_id": 52696330744,
+        "text": "First post with effects",
+        "type": 1,
+        "created_at": 1649638191,
+        "created_at_utc": 1649663391,
+        "content_type": "comment",
+        "status": "Active",
+        "bit_flags": 0,
+        "did_report_as_spam": false,
+        "share_enabled": false,
+        "user": {
+            "pk": 52696330744,
+            "username": "artvestest1",
+            "full_name": "artvestest 1 account",
+            "is_private": false,
+            "profile_pic_url": "https://instagram.fkix2-1.fna.fbcdn.net/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=instagram.fkix2-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=klU-HgX5b4sAX-MpegA&edm=AJ9x6zYBAAAA&ccb=7-4&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-4&oh=00_AT9O9P7SBq_gu1hI6HY5fBOD5dhHup6gvmwWDs5naKkXjA&oe=62620F8F&_nc_sid=cff2a4",
+            "is_verified": false,
+            "follow_friction_type": -1,
+            "growth_friction_info": {
+                "has_active_interventions": false,
+                "interventions": {}
+            },
+            "account_badges": []
+        },
+        "is_covered": false,
+        "private_reply_status": 0
+    },
+    "caption_is_edited": false,
+    "has_more_comments": false,
+    "has_more_headload_comments": false,
+    "threading_enabled": true,
+    "media_header_display": "full",
+    "initiate_at_top": true,
+    "insert_new_comment_to_top": true,
+    "display_realtime_typing_indicator": true,
+    "quick_response_emojis": [
+        {
+            "unicode": "\u2764\ufe0f"
+        },
+        {
+            "unicode": "\ud83d\ude4c"
+        },
+        {
+            "unicode": "\ud83d\udd25"
+        },
+        {
+            "unicode": "\ud83d\udc4f"
+        },
+        {
+            "unicode": "\ud83d\ude22"
+        },
+        {
+            "unicode": "\ud83d\ude0d"
+        },
+        {
+            "unicode": "\ud83d\ude2e"
+        },
+        {
+            "unicode": "\ud83d\ude02"
+        }
+    ],
+    "preview_comments": [],
+    "can_view_more_preview_comments": false,
+    "scroll_behavior": 1,
+    "comment_cover_pos": "bottom",
+    "status": "ok"
+}
+
+2813902932063625695
