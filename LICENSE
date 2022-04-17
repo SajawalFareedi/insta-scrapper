@@ -1,19 +1,6 @@
-# INSTAGRAM BOT
+# MIT License
 
-<p>A very simple but useful bot for scrapping users from instagram. It scrapes every single follower, following, and post. Not just that, it also scrapes all the comments and there likes, tagged users, and comments replies</p>
-
-<h3>Instructions:</h3>
-
-<ul>
-    <li>Install required modules from <i>requirements.txt</i> file</li>
-    <li>If you want to change default configuration, just go to <i>config/Variables.py</i></li>
-    <li>Place the input file (make sure the filename is input.csv) in the <i>input/</i> folder</li>
-    <li>Open the terminal and type <code> python -W ignore scrapper.py </code> and hit <code>ENTER</code></li>
-</ul>
-<br>
-<br>
-<b> MIT License </b>
-<p>Copyright (c) 2022 <b>Sajawal Fareedi</b>
+Copyright (c) 2022 Sajawal Fareedi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -32,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</p>

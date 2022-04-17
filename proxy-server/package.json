@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Sajawal Fareedi",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.3",
     "proxy-chain": "^1.0.4"
